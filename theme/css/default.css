@@ -1,0 +1,146 @@
+/*
+ IMPORTANT:
+ This file isn't loaded directly, for changes to show you must generate a minified
+ version using Grunt
+*/
+body {
+  background: #121212;
+  /*margin-top:64px;*/
+  /*padding-top: 0;*/
+  margin-bottom: 5em;
+  color: #e0e0e0; }
+
+a {
+  color: #15a45b; }
+
+.idno-content {
+  box-shadow: none;
+  border: none;
+  background-color: #1f1f1f; }
+
+/*.idno-body .p-name a,*/
+.idno-entry h2 {
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0; }
+
+.idno-body blockquote {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 0.9em;
+  color: #b0b0b0; }
+
+.idno-statusupdates .idno-body p {
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0; }
+
+.navbar-default {
+  background-color: #1f1f1f;
+  /* background color will be dark gray for all browsers */
+  background-image: none;
+  background-repeat: no-repeat;
+  opacity: none; }
+
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #e0e0e0;
+  text-shadow: none; }
+
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret {
+  border-bottom-color: #e0e0e0;
+  border-top-color: #e0e0e0; }
+
+blockquote {
+  border-left: 5px solid #15a45b;
+  padding: 0 0 0 15px; }
+
+.pager li > a,
+.pager li > span {
+  background-color: #1f1f1f;
+  border: 3px solid #15a45b;
+  border-radius: 0;
+  color: #e0e0e0;
+  display: inline-block;
+  font-size: 1.2em;
+  padding: 8px 24px; }
+
+.pager li > a:hover,
+.pager li > a:focus {
+  border: 3px solid #15a45b;
+  color: #15a45b; }
+
+.button-bar {
+  margin-left: 0;
+  text-align: right; }
+
+.btn-primary {
+  background-color: #15a45b;
+  border-color: #15a45b; }
+
+.navbar .nav .dropdown-toggle .caret {
+  margin-top: 11px; }
+
+/* For B3 */
+.navbar-default .navbar-brand {
+  color: #e0e0e0; }
+
+.navbar-brand,
+.navbar-nav > li > a {
+  text-shadow: none;
+  color: #15a45b !important; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #15a45b; }
+
+.navbar-nav > li > .nav > li > a {
+  color: #15a45b;
+  /*padding-bottom: 13px;
+    padding-top: 13px;*/ }
+
+.navbar .nav .dropdown-toggle .caret {
+  margin-top: 0; }
+
+.dropdown-menu {
+  margin: 0 0 0;
+  background-color: #1f1f1f;
+  color: #e0e0e0; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #e0e0e0; }
+
+.navbar-default .navbar-toggle {
+  border-color: transparent; }
+
+.navbar-nav > li > .dropdown-menu,
+.navbar-right .dropdown-menu {
+  margin-top: 6px;
+  background-color: #1f1f1f;
+  color: #e0e0e0; }
+
+.idno-object .permalink a {
+  color: #15a45b; }
+
+.idno-object .permalink a:hover {
+  color: #20fc8a; }
+
+.idno-object a.edit {
+  color: #15a45b !important; }
+
+.idno-object a.edit:hover {
+  color: #20fc8a !important; }
+
+.idno-object a.edit-delete {
+  color: #ba0303 !important; }
+
+.idno-object a.edit-delete:hover {
+  color: #ff0000 !important; }
+
+a.contentTypeButton {
+  color: #15a45b; }
+
+a.contentTypeButton:hover {
+  color: #20fc8a;
+  background-color: #1f1f1f; }

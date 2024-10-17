@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  db:
+    image: mysql:8.0.30
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: KnownDBName
+
+  known:
+    build:
+      context: ../known
+      dockerfile: ../Prolo/Known-dockerfile
+    ports:
+      - "9000:80"
+    environment:
+      KNOWN_DATABASE: "MySQL"
+      KNOWN_DBNAME: "KnownDBName"
+      KNOWN_DBUSER: "root"
+      KNOWN_DBPASS: "example"
+      KNOWN_DBHOST: "db:3306"
+    depends_on:
+      - db
+    volumes:
+      - ./known-config.ini:/var/www/html/configuration/config.ini
+      - ./theme:/var/www/html/Themes/Prolo
+
+volumes:
+  db_data:
